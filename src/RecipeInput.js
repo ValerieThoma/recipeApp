@@ -44,7 +44,7 @@ class RecipeInput extends Component {
       instructions: '',
       ingredients: [''],
       img: ''
-    }));
+    })); 
   }
 
   render() {
