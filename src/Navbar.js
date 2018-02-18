@@ -11,7 +11,7 @@ class Navbar extends Component {
                     <li><a>Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Contact Us</a></li>
-                    </nav>
+                </nav>
             </header>
         )
     }
