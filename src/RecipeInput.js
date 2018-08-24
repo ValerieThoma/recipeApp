@@ -9,7 +9,7 @@ class RecipeInput extends Component {
   constructor(props){
     super(props);
     this.state = {
-      tilte: '',
+      title: '',
       instructions: '',
       ingredients: [''],
       img: ''
@@ -83,7 +83,7 @@ class RecipeInput extends Component {
             <input
               id='recipe-title-input'
               key='title'
-              name='text'
+              name='title'
               type='text'
               value={title}
               size={42}
@@ -94,7 +94,7 @@ class RecipeInput extends Component {
             htmlFor='recipe-instructions-input'
             style={{marginTop: '5xp'}}
           >
-            instructions
+            Instructions
           </label>
           <textarea
             key='instructions'
